@@ -1,1 +1,1 @@
-# Si-mple-Customisable-Slider
+# Simple-Customisable-Slider

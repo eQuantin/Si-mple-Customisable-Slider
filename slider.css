@@ -1,0 +1,32 @@
+.slider {
+  width: 500px;
+  height: 15px;
+  margin-top: 200px;
+  touch-action: manipulation;
+}
+
+.origin {
+  height: 100%;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  position: relative;
+  background-color: blue;
+  width: 100%;
+}
+
+.range {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: red;
+}
+
+.handle {
+  z-index: 2;
+  position: absolute;
+  height: 170%;
+  width: 5%;
+  bottom: -35%;
+  cursor: pointer;
+  background-color: grey;
+}
